@@ -165,7 +165,7 @@ to ensure safe digital communication.
 | 🗄 Vault | Store and manage secured images |
 | 📊 Dashboard | Track activity and monitor operations |
 | 📚 Learn | Educational section about encryption and steganography |
-| ℹ About | Overview of workflow and technologies |
+| ℹ️ About | Overview of workflow and technologies |
 | 🔐 Login | Secure login page |
 | 📝 Register | User registration interface |
 
