@@ -1,16 +1,44 @@
-# React + Vite
+# Image Vault
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Image Vault is a secure image steganography application that allows users to encrypt confidential messages and hide them inside images using AES encryption and LSB steganography techniques.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Secure message encoding inside images
+- AES-based encryption
+- Decode hidden messages using password
+- Vault system for secured images
+- Dashboard activity tracking
+- Responsive modern cybersecurity UI
+- Image capacity checking
+- Download secured encoded images
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript
+- CSS3
+- React Router
+- Canvas API
+- AES Encryption
+- LSB Steganography
 
-## Expanding the ESLint configuration
+## Modules
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Encode
+Hide secret messages inside images securely.
+
+### Decode
+Extract hidden messages using the correct password.
+
+### Vault
+Store and manage encoded images.
+
+### Dashboard
+Track encoding and decoding activity.
+
+## Installation
+
+```bash
+npm install
+npm run dev
